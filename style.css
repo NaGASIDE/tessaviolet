@@ -1,0 +1,99 @@
+/* Header */
+.header-title {
+  font-size: 9vh;
+  color: white;
+  position: absolute;
+  margin: 22vh 65vw;
+}
+
+.logo {
+  position: fixed;
+  display: flex;
+  height: 10vh;
+  margin:  5vh 7vh;
+}
+
+.twitter {
+  position: fixed;
+  display: flex;
+  height: 6.3vh;
+  margin:  90vh 189vh;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background: url("img/backgraund.jpg") no-repeat center center;
+  background-size: 117%;
+  background-position: -17vw -27vw ;
+  height: 93vh;
+  width: 100vw;
+}
+
+.pol {
+  position: fixed;
+  display: flex;
+  height: 3.5vh;
+  margin:  5vh 190vh;
+}
+.teleshka {
+  position: absolute;
+  display: flex;
+  height: 1.9vh;
+  margin:  6vh 175vh;
+}
+.shop {
+  position: absolute;
+  display: flex;
+  height: 1.9vh;
+  margin:  6vh 181.3vh;
+}
+
+/*Main */
+
+.main {
+  height: 50vw;
+}
+
+.span {
+  display: block;
+  margin: 5vh 5vh;
+}
+
+.badideas {
+  height: 7.5vw;
+}
+.audioRelese {
+  text-align: center;
+  margin: 5vh 5vh;
+}
+
+.audio {
+  position: absolute;
+  background-color: rgb(240, 240, 240);
+  margin: 0vw 19.5vw;
+  width: 60%;
+  height: 15%;
+}
+
+.showMore {
+  margin: 0;
+  height: 40%;
+  background-color: rgb(240, 240, 240);
+  transition: background-color .2s;
+}
+.showMore:hover{ 
+  background-color: rgb(197, 197, 197);
+  
+}
+
+.textshowMore {
+  color:rgb(255, 75, 75);
+  font-size: 50%;
+  padding: 1vw 0px;
+  text-align: center;
+  margin: 0;
+  text-align: center;
+}
